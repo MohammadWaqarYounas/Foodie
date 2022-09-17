@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Foodie</string>
+    <string name="pizza_ingredients">\"abcd\" \"1234\" \"kjdhfksd\"</string>
+
+    <string-array name="pizza_ingredients">
+        <item>Dough</item>
+        <item>Cheese</item>
+        <item>Vegetables</item>
+    </string-array>
+    <string-array name="pasta_ingredients">
+        <item>pasta</item>
+        <item>Chicken</item>
+        <item>Vegetables</item>
+    </string-array>
+</resources>
