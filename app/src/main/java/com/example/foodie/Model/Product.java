@@ -11,7 +11,7 @@ public class Product implements Serializable {
     ArrayList<String> ingredients;
 //    ArrayList<Integer> ingredientpicture;
 
-    public Product(int image, String name, String description, String recipe, ArrayList<String> ingredients) {
+    public Product(int image, String name, String description, String recipe) {
         this.image = image;
         this.name = name;
         this.description = description;

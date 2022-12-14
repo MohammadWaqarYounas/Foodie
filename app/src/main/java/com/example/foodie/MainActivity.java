@@ -32,15 +32,14 @@ public class MainActivity extends AppCompatActivity {
         rv =findViewById(R.id.list);
         ArrayList<Product> list = new ArrayList<>();
         ArrayList<String> pizzaIngredients = new ArrayList<>();
-        pizzaIngredients =  getResources().getStringArray(R.string.pizza_ingredients);
 
 
-        list.add(new Product(R.drawable.pizza, "Pizza","i am the Pizza description", "i am the recipe", pizzaIngredients));
-        list.add(new Product(R.drawable.pasta, "Pasta","i am the Pasta description", "i am the recipe", pizzaIngredients));
-        list.add(new Product(R.drawable.steak, "Steak","i am the Steak description", "i am the recipe", pizzaIngredients));
-        list.add(new Product(R.drawable.steak, "Spicy Steak","i am the description", "i am the recipe", pizzaIngredients));
-        list.add(new Product(R.drawable.steak, "Steak","i am the description", "i am the recipe", pizzaIngredients));
-        list.add(new Product(R.drawable.steak, "Steak","i am the description", "i am the recipe", pizzaIngredients));
+        list.add(new Product(R.drawable.pizza, "Pizza","i am the Pizza description", "i am the recipe"));
+        list.add(new Product(R.drawable.pasta, "Pasta","i am the Pasta description", "i am the recipe"));
+        list.add(new Product(R.drawable.steak, "Steak","i am the Steak description", "i am the recipe"));
+        list.add(new Product(R.drawable.steak, "Spicy Steak","i am the description", "i am the recipe"));
+        list.add(new Product(R.drawable.steak, "Steak","i am the description", "i am the recipe"));
+        list.add(new Product(R.drawable.steak, "Steak","i am the description", "i am the recipe"));
 
 
 

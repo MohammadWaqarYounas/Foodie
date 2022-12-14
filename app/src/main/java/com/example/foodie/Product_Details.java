@@ -15,18 +15,18 @@ public class Product_Details extends AppCompatActivity{
     RecyclerView rv;
     ImageView productImage;
     TextView name,description,recipe;
+    Product p = new Product();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_product_details);
 
         rv =findViewById(R.id.ingredientsrecycleview);
-
         productImage=findViewById(R.id.productimage);
         name=findViewById(R.id.productname);
         description=findViewById(R.id.description);
         recipe=findViewById(R.id.recipe);
-        Product p = new Product();
+
         p = (Product) getIntent().getSerializableExtra("productdetails");
         productImage.setImageResource(p.getImage());
         name.setText(p.getName());
